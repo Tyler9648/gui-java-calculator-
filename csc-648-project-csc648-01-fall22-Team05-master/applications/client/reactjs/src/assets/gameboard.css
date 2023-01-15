@@ -1,0 +1,200 @@
+#output {
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+#btndeal,
+#myactions {
+    display: none;
+    text-align:center;
+}
+
+h1{
+    text-align: center;
+
+    color:white;
+
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+    font: normal 700 24px/1 "Calibri", sans-serif;
+}
+
+
+#cover {
+    text-align: center;
+    height: 160px;
+    width: 120px;
+    background-color: brown;
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid black;
+    padding: 3px;
+}
+#cards {
+    text-align: center;
+}
+
+.icard {
+    height: 160px;
+    width: 120px;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    display: inline-block;
+    font-family: 'Lato';
+    text-align: center;
+}
+
+.top-card {
+    text-align: center;
+    font-size: 30px;
+    line-height: 20px;
+    left: 2px;
+    top: 2px;
+}
+
+.content-card {
+    text-align: center;
+    font-size: 70px;
+}
+
+.bottom-card {
+    text-align: center;
+    font-size: 30px;
+    line-height: 20px;
+    right: 2px;
+    bottom: 2px;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
+.clubs,
+.spades {
+    color: black;
+}
+
+.hearts,
+.diamonds {
+    color: red;
+}
+
+.hearts .suit::after {
+    content: '\2665';
+}
+
+.diamonds .suit::after {
+    content: '\2666';
+}
+
+.spades .suit::after {
+    content: '\2660';
+}
+
+.clubs .suit::after {
+    content: '\2663';
+}
+
+#dealerHolder,
+#playerHolder {
+
+    color: white;
+    height: 180px;
+    width: 500px;
+    align-items: center;
+}
+.dealerHolder,
+.playerHolder {
+    color: white;
+
+    height: 180px;
+    width: 500px;
+    align-items: center;
+}
+
+#message {
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+
+    color: white
+}
+
+
+
+#btnstay {
+    background-color: red;
+}
+
+#btnhit {
+    background-color: green;
+}
+
+#btndouble {
+    background-color: blue;
+}
+#deal {
+    text-align: center;
+}
+#btndeal {
+    text-align: center;
+    background-color: purple;
+    font-size: 50px;
+}
+
+#maxbet {
+    background-color: red;
+    font-size: 12px;
+}
+#start{
+    text-align: center;
+}
+
+#startEl{
+    text-align: center;
+}
+
+#btnstart{
+    background-color: black;
+    text-align: center;
+}
+
+#btnstart:hover{
+    background-color: red;
+    text-align: center;
+}
+
+#mybet {
+    font-size: 30px;
+}
+
+
+.Wallet {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+#Wallet {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+#dValue {
+    text-align: center;
+}

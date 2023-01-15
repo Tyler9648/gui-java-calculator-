@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BabyBlackJack</title>
+    <link rel="stylesheet" href="gameboard.css">
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>BabyBlackJack</h1>
+            
+            <div id="start">
+                <button id="btnstart" type="button" onclick="Start()" class="btn">Start Game</button>
+            </div>
+            
+            <div id="output">
+
+                <div id = cards>
+                Cursed Dealer: <span id="dealerScoreOutput"></span>
+                <div id="dealerHolder"></div>
+                Player: <span id="playerScoreOutput"></span>
+                <div id="playerHolder"></div>
+                </div>
+
+
+                <div id="myactions">
+                    <button id="btnstay" type="button" onclick="cardAction('stay')" class="btn">stay</button>
+                    <button id="btnhit" type="button" onclick="cardAction('hit')" class="btn">Hit</button>
+                    <button id="btndouble" type="button" onclick="cardAction('double')" class="btn">Double</button>
+                </div>
+                <div id="deal">
+                    <button id="btndeal" type="button" onclick="dealNew()" class="btn">Play Again?</button>
+                </div>
+
+                <div class="Wallet">Wallet: $<span id="dollars">1000</span>
+                    <br>Bet: $<input type="number" id="mybet" value="10" min="10" max="100">
+                    <br>
+                    <button id="maxbet" type="button" onclick="maxbet()" class="btn">Max Bet</button>
+                </div>
+
+                <div id="prompt">Press Start Button</div>
+            </div>
+            <script src="game.js"></script>
+</body>
+
+</html>

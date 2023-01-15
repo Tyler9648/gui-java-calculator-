@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "csc-648-group5-babyblackjack",
+    "backend": "csc-648-group5-babyblackjack"
+  },
+  "targets": {},
+  "etags": {}
+}
